@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,25 +21,57 @@
             Background Color Variations
         </h2>
 
-        <div class="space-y-2">
-            <div class="bg-red-100 p-2">bg-red-100</div>
-            <div class="bg-red-300 p-2">bg-red-300</div>
-            <div class="bg-red-500 text-white p-2">bg-red-500</div>
-            <div class="bg-red-700 text-white p-2">bg-red-700</div>
-            <div class="bg-red-900 text-white p-2">bg-red-900</div>
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+
+
+            <div class="space-y-2">
+                <div class="bg-red-100 p-2">bg-red-100</div>
+                <div class="bg-red-300 p-2">bg-red-300</div>
+                <div class="bg-red-500 text-white p-2">bg-red-500</div>
+                <div class="bg-red-700 text-white p-2">bg-red-700</div>
+                <div class="bg-red-900 text-white p-2">bg-red-900</div>
+            </div>
+
+
+            <pre class="bg-black text-green-400 p-4 rounded-xl text-sm overflow-x-auto">
+<code>
+&lt;div class="bg-red-100 p-2"&gt;bg-red-100&lt;/div&gt;
+&lt;div class="bg-red-300 p-2"&gt;bg-red-300&lt;/div&gt;
+&lt;div class="bg-red-500 text-white p-2"&gt;bg-red-500&lt;/div&gt;
+&lt;div class="bg-red-700 text-white p-2"&gt;bg-red-700&lt;/div&gt;
+&lt;div class="bg-red-900 text-white p-2"&gt;bg-red-900&lt;/div&gt;
+</code>
+        </pre>
+
         </div>
     </section>
+
 
     <section class="bg-white p-6 rounded-xl shadow">
         <h2 class="text-2xl font-semibold mb-4 text-center">
             Custom Color Usage
         </h2>
 
-        <div class="space-y-2">
-            <div class="bg-[#202940] text-white p-2">#202940</div>
-            <div class="bg-[#4B4038] text-white p-2">#4B4038</div>
-            <div class="bg-[#9A8678] text-white p-2">#9A8678</div>
-            <div class="bg-[#CAAA98] text-white p-2">#CAAA98</div>
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+
+
+            <div class="space-y-2">
+                <div class="bg-[#202940] text-white p-2">#202940</div>
+                <div class="bg-[#4B4038] text-white p-2">#4B4038</div>
+                <div class="bg-[#9A8678] text-white p-2">#9A8678</div>
+                <div class="bg-[#CAAA98] text-white p-2">#CAAA98</div>
+            </div>
+
+
+            <pre class="bg-black text-green-400 p-4 rounded-xl text-sm overflow-x-auto">
+<code>
+&lt;div class="bg-[#202940] text-white p-2"&gt;#202940&lt;/div&gt;
+&lt;div class="bg-[#4B4038] text-white p-2"&gt;#4B4038&lt;/div&gt;
+&lt;div class="bg-[#9A8678] text-white p-2"&gt;#9A8678&lt;/div&gt;
+&lt;div class="bg-[#CAAA98] text-white p-2"&gt;#CAAA98&lt;/div&gt;
+</code>
+        </pre>
+
         </div>
     </section>
 
@@ -47,17 +80,44 @@
             Width and Height Utilities
         </h2>
 
-        <div class="space-y-3">
-            <div class="w-1/3 bg-blue-400 text-white p-2">w-1/3</div>
-            <div class="w-1/2 bg-blue-500 text-white p-2">w-1/2</div>
-            <div class="w-2/3 bg-blue-600 text-white p-2">w-2/3</div>
-            <div class="w-full bg-blue-700 text-white p-2">w-full</div>
-        </div>
+        <div class="grid md:grid-cols-2 gap-6 items-start">
 
-        <div class="mt-5 space-y-3">
-            <div class="h-12 bg-purple-400 text-white p-2">h-12</div>
-            <div class="h-16 bg-purple-500 text-white p-2">h-16</div>
-            <div class="h-20 bg-purple-600 text-white p-2">h-20</div>
+
+            <div>
+
+
+                <div class="space-y-3">
+                    <div class="w-1/3 bg-blue-400 text-white p-2">w-1/3</div>
+                    <div class="w-1/2 bg-blue-500 text-white p-2">w-1/2</div>
+                    <div class="w-2/3 bg-blue-600 text-white p-2">w-2/3</div>
+                    <div class="w-full bg-blue-700 text-white p-2">w-full</div>
+                </div>
+
+
+                <div class="mt-5 space-y-3">
+                    <div class="h-12 bg-purple-400 text-white p-2">h-12</div>
+                    <div class="h-16 bg-purple-500 text-white p-2">h-16</div>
+                    <div class="h-20 bg-purple-600 text-white p-2">h-20</div>
+                </div>
+
+            </div>
+
+
+            <pre class="bg-black text-green-400 p-4 rounded-xl text-sm overflow-x-auto">
+<code>
+&lt;!-- Width --&gt;
+&lt;div class="w-1/3 bg-blue-400 text-white p-2"&gt;w-1/3&lt;/div&gt;
+&lt;div class="w-1/2 bg-blue-500 text-white p-2"&gt;w-1/2&lt;/div&gt;
+&lt;div class="w-2/3 bg-blue-600 text-white p-2"&gt;w-2/3&lt;/div&gt;
+&lt;div class="w-full bg-blue-700 text-white p-2"&gt;w-full&lt;/div&gt;
+
+&lt;!-- Height --&gt;
+&lt;div class="h-12 bg-purple-400 text-white p-2"&gt;h-12&lt;/div&gt;
+&lt;div class="h-16 bg-purple-500 text-white p-2"&gt;h-16&lt;/div&gt;
+&lt;div class="h-20 bg-purple-600 text-white p-2"&gt;h-20&lt;/div&gt;
+</code>
+        </pre>
+
         </div>
     </section>
 
@@ -66,33 +126,74 @@
             Typography and Text Sizes
         </h2>
 
-        <div class="space-y-2">
-            <p class="text-xs">text-xs</p>
-            <p class="text-sm">text-sm</p>
-            <p class="text-base">text-base</p>
-            <p class="text-lg">text-lg</p>
-            <p class="text-xl">text-xl</p>
-            <p class="text-2xl font-semibold">text-2xl</p>
-            <p class="text-4xl font-bold">text-4xl bold</p>
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+
+
+            <div class="space-y-2">
+                <p class="text-xs">text-xs</p>
+                <p class="text-sm">text-sm</p>
+                <p class="text-base">text-base</p>
+                <p class="text-lg">text-lg</p>
+                <p class="text-xl">text-xl</p>
+                <p class="text-2xl font-semibold">text-2xl</p>
+                <p class="text-4xl font-bold">text-4xl bold</p>
+            </div>
+
+
+            <pre class="bg-black text-green-400 p-4 rounded-xl text-sm overflow-x-auto">
+<code>
+&lt;p class="text-xs"&gt;text-xs&lt;/p&gt;
+&lt;p class="text-sm"&gt;text-sm&lt;/p&gt;
+&lt;p class="text-base"&gt;text-base&lt;/p&gt;
+&lt;p class="text-lg"&gt;text-lg&lt;/p&gt;
+&lt;p class="text-xl"&gt;text-xl&lt;/p&gt;
+&lt;p class="text-2xl font-semibold"&gt;text-2xl&lt;/p&gt;
+&lt;p class="text-4xl font-bold"&gt;text-4xl bold&lt;/p&gt;
+</code>
+        </pre>
+
         </div>
     </section>
 
-    <section class="bg-white p-6 rounded-xl shadow">
-        <h2 class="text-2xl font-semibold mb-4 text-center">
-            Text Alignment and Decoration
+    <section class="bg-white p-6 rounded-xl shadow space-y-6">
+
+        <h2 class="text-2xl font-semibold text-center">
+            Text Alignment & Decoration
         </h2>
 
-        <p class="text-left text-purple-500">
-            Left aligned text
-        </p>
 
-        <p class="text-center text-green-600 underline decoration-green-800">
-            Center aligned with underline
-        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-        <p class="text-right text-blue-600">
-            Right aligned text
-        </p>
+
+            <div class="space-y-3 border p-4 rounded bg-gray-50">
+                <h3 class="font-semibold text-center">Output</h3>
+
+                <p class="text-left text-purple-500 bg-purple-100 p-2 rounded">
+                    Left aligned text
+                </p>
+
+                <p class="text-center text-green-600 underline decoration-green-800 bg-green-100 p-2 rounded">
+                    Center aligned text
+                </p>
+
+                <p class="text-right text-blue-600 bg-blue-100 p-2 rounded">
+                    Right aligned text
+                </p>
+            </div>
+
+
+            <div class="bg-black text-green-400 p-4 rounded-xl text-sm overflow-x-auto">
+                <pre>
+&lt;p class="text-left text-purple-500"&gt;Left aligned text&lt;/p&gt;
+
+&lt;p class="text-center underline"&gt;Center aligned text&lt;/p&gt;
+
+&lt;p class="text-right text-blue-600"&gt;Right aligned text&lt;/p&gt;
+</pre>
+            </div>
+
+        </div>
+
     </section>
 
     <section class="bg-white p-6 rounded-xl shadow">
@@ -100,188 +201,488 @@
             Line Height and Spacing
         </h2>
 
-        <p class="leading-4">
-            Small spacing between lines. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
+        <div class="grid md:grid-cols-2 gap-6 items-start">
 
-        <p class="leading-6 mt-3">
-            Medium spacing between lines. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
 
-        <p class="leading-8 mt-3">
-            Large spacing between lines. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
+            <div>
+                <p class="leading-4">
+                    Small spacing between lines. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+
+                <p class="leading-6 mt-3">
+                    Medium spacing between lines. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+
+                <p class="leading-8 mt-3">
+                    Large spacing between lines. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+
+
+            <pre class="bg-black text-green-400 p-4 rounded-xl text-sm overflow-x-auto">
+<code>
+&lt;p class="leading-4"&gt;Small spacing between lines. Lorem ipsum dolor sit amet consectetur adipisicing elit.&lt;/p&gt;
+
+&lt;p class="leading-6 mt-3"&gt;Medium spacing between lines. Lorem ipsum dolor sit amet consectetur adipisicing elit.&lt;/p&gt;
+
+&lt;p class="leading-8 mt-3"&gt;Large spacing between lines. Lorem ipsum dolor sit amet consectetur adipisicing elit.&lt;/p&gt;
+</code>
+        </pre>
+
+        </div>
     </section>
 
     <section class="bg-white p-6 rounded-xl shadow">
-        <h2 class="text-center font-bold text-2xl">
-            Margin and Padding Utilities
+        <h2 class="text-center font-bold text-2xl mb-4">
+            Margin Utilities
         </h2>
 
-        <div class="ml-10 bg-red-500">Left Margin</div>
-        <div class="mr-10 bg-green-500">Right Margin</div>
-        <div class="mt-10 bg-red-500">Top Margin</div>
-        <div class="mb-10 bg-green-500">Bottom Margin</div>
-        <div class="mx-10 bg-red-500">X axis Margin</div>
-        <div class="my-10 bg-green-500">Y axis Margin</div>
-        <div class="mt-10 bg-red-500">Top Margin</div>
-        <div class="m-10 bg-green-500">All Side Margin</div>
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+            <div class="space-y-2">
+                <div class="ml-10 bg-red-500">Left Margin</div>
+                <div class="mr-10 bg-green-500">Right Margin</div>
+                <div class="mt-10 bg-red-500">Top Margin</div>
+                <div class="mb-10 bg-green-500">Bottom Margin</div>
+                <div class="mx-10 bg-red-500">X axis Margin</div>
+                <div class="my-10 bg-green-500">Y axis Margin</div>
+                <div class="mt-10 bg-red-500">Top Margin</div>
+                <div class="m-10 bg-green-500">All Side Margin</div>
+            </div>
 
-        <div class="pl-10 bg-red-500">Left Padding</div>
-        <div class="pr-10 bg-green-500">Right Padding</div>
-        <div class="pt-10 bg-red-500">Top Padding</div>
-        <div class="pb-10 bg-green-500">Bottom Padding</div>
-        <div class="px-10 bg-red-500">X axis Padding</div>
-        <div class="py-10 bg-green-500">Y axis Padding</div>
-        <div class="pt-10 bg-red-500">Top Padding</div>
-        <div class="p-10 bg-green-500">All Side Padding</div>
+
+            <pre class="bg-black text-green-400 p-4 rounded-xl text-sm overflow-x-auto font-mono whitespace-pre">
+<code>
+&lt;div class="ml-10 bg-red-500"&gt;Left Margin&lt;/div&gt;
+&lt;div class="mr-10 bg-green-500"&gt;Right Margin&lt;/div&gt;
+&lt;div class="mt-10 bg-red-500"&gt;Top Margin&lt;/div&gt;
+&lt;div class="mb-10 bg-green-500"&gt;Bottom Margin&lt;/div&gt;
+&lt;div class="mx-10 bg-red-500"&gt;X axis Margin&lt;/div&gt;
+&lt;div class="my-10 bg-green-500"&gt;Y axis Margin&lt;/div&gt;
+&lt;div class="mt-10 bg-red-500"&gt;Top Margin&lt;/div&gt;
+&lt;div class="m-10 bg-green-500"&gt;All Side Margin&lt;/div&gt;
+</code>
+        </pre>
+
+        </div>
     </section>
 
+    <section class="bg-white p-6 rounded-xl shadow">
+        <h2 class="text-center font-bold text-2xl mb-4">
+            Padding Utilities
+        </h2>
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+            <div>
+                <div class="pl-10 bg-red-500">Left Padding</div>
+                <div class="pr-10 bg-green-500">Right Padding</div>
+                <div class="pt-10 bg-red-500">Top Padding</div>
+                <div class="pb-10 bg-green-500">Bottom Padding</div>
+                <div class="px-10 bg-red-500">X axis Padding</div>
+                <div class="py-10 bg-green-500">Y axis Padding</div>
+                <div class="pt-10 bg-red-500">Top Padding</div>
+                <div class="p-10 bg-green-500">All Side Padding</div>
+            </div>
+            <div>
+                <pre class="bg-black text-green-400 p-4 rounded-xl text-sm overflow-x-auto font-mono whitespace-pre">
+<code>
+&lt;div class="pl-10 bg-red-500"&gt;Left Padding&lt;/div&gt;
+&lt;div class="pr-10 bg-green-500"&gt;Right Padding&lt;/div&gt;
+&lt;div class="pt-10 bg-red-500"&gt;Top Padding&lt;/div&gt;
+&lt;div class="pb-10 bg-green-500"&gt;Bottom Padding&lt;/div&gt;
+&lt;div class="px-10 bg-red-500"&gt;X axis Padding&lt;/div&gt;
+&lt;div class="py-10 bg-green-500"&gt;Y axis Padding&lt;/div&gt;
+&lt;div class="pt-10 bg-red-500"&gt;Top Padding&lt;/div&gt;
+&lt;div class="p-10 bg-green-500"&gt;All Side Padding&lt;/div&gt;
+    </code>
+    </pre>
+            </div>
+        </div>
+
+
+    </section>
+
+
     <section class="bg-white p-6 rounded-xl shadow text-center">
-        <h1 class="text-2xl font-bold">
-            Borders and Border Radius
+        <h1 class="text-2xl font-bold mb-4">
+            Borders
         </h1>
 
-        <div class="bg-purple-700 m-4 p-6 rounded-xl">Round XL</div>
-        <div class="bg-purple-700 m-4 p-6 rounded-sm">Round sm</div>
-        <div class="bg-purple-700 m-4 p-6 rounded-lg">Round lg</div>
-        <div class="bg-purple-700 m-4 p-6 rounded-md">Round md</div>
+        <div class="grid md:grid-cols-2 gap-6 items-start">
 
-        <div class="border-1 border-purple-400 m-4 p-10 rounded-xl">border -1 </div>
-        <div class="border-2 border-gray-400 m-4 p-10 rounded-xl">border -2 </div>
-        <div class="border-3 border-yellow-400 m-4 p-10 rounded-xl">border -3</div>
-        <div class="border-4 border-red-400 m-4 p-10 rounded-xl">border -4</div>
-        <div class="border-5 border-blue-400 m-4 p-10 rounded-xl">border -5 </div>
+
+            <div class="space-y-6">
+
+                <div class="border border-purple-400 m-4 p-10 rounded-xl">border (default)</div>
+                <div class="border-2 border-gray-400 m-4 p-10 rounded-xl">border-2</div>
+                <div class="border-4 border-yellow-400 m-4 p-10 rounded-xl">border-4</div>
+                <div class="border-8 border-red-400 m-4 p-10 rounded-xl">border-8</div>
+            </div>
+
+            <div>
+                <pre
+                    class="bg-black text-green-400 p-4 space-y-6 mt-6 rounded-xl text-sm overflow-x-auto font-mono whitespace-pre">
+<code>
+&lt;div class="border border-purple-400 m-4 p-10 rounded-xl"&gt;border (default)&lt;/div&gt;
+
+&lt;div class="border-2 border-gray-400 m-4 p-10 rounded-xl"&gt;border-2&lt;/div&gt;
+
+&lt;div class="border-4 border-yellow-400 m-4 p-10 rounded-xl"&gt;border-4&lt;/div&gt;
+
+&lt;div class="border-8 border-red-400 m-4 p-10 rounded-xl"&gt;border-8&lt;/div&gt;
+</code>
+</pre>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white p-6 rounded-xl shadow text-center">
+        <h1 class="text-2xl font-bold mb-4">
+            Border Radius
+        </h1>
+
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+
+
+            <div class="space-y-2">
+
+
+                <div class="bg-purple-700 text-white m-4 p-6 rounded-xl">Round XL</div>
+                <div class="bg-purple-700 text-white m-4 p-6 rounded-sm">Round sm</div>
+                <div class="bg-purple-700 text-white m-4 p-6 rounded-lg">Round lg</div>
+                <div class="bg-purple-700 text-white m-4 p-6 rounded-md">Round md</div>
+
+            </div>
+
+
+            <pre class="bg-black text-green-400 p-4 rounded-xl text-sm overflow-x-auto font-mono whitespace-pre">
+<code>
+&lt;div class="bg-purple-700 text-white m-4 p-6 rounded-xl"&gt;Round XL&lt;/div&gt;
+
+&lt;div class="bg-purple-700 text-white m-4 p-6 rounded-sm"&gt;Round sm&lt;/div&gt;
+
+&lt;div class="bg-purple-700 text-white m-4 p-6 rounded-lg"&gt;Round lg&lt;/div&gt;
+
+&lt;div class="bg-purple-700 text-white m-4 p-6 rounded-md"&gt;Round md&lt;/div&gt;
+</code>
+        </pre>
+
+        </div>
     </section>
 
+
+
+
     <section class="bg-white p-6 rounded-xl shadow text-center">
-        <h1 class="text-2xl font-bold">
+        <h1 class="text-2xl font-bold mb-4">
             Gradients and Hover Effects
         </h1>
 
-        <div class="p-10 m-10 bg-gradient-to-r from-red-500 to-green-500 hover:bg-gradient-to-l from-red-500 to-green-500">Right side color change </div>
-        <div class="p-10 m-10 bg-gradient-to-l from-red-500 to-green-500 hover:bg-gradient-to-r from-red-500 to-green-500">left side color change </div>
-        <div class="p-10 m-10 bg-gradient-to-t from-red-500 to-green-500 hover:bg-gradient-to-b from-red-500 to-green-500">Top side color change </div>
-        <div class="p-10 m-10 bg-gradient-to-b from-red-500 to-green-500 hover:bg-gradient-to-t from-red-500 to-green-500">Bottom side color change </div>
-    </section>
+        <div class="grid md:grid-cols-2 gap-6 items-start">
 
-    <section class="bg-white p-6 rounded-xl shadow space-y-6 text-center">
-        <h1 class="text-xl font-bold">Flexbox Layout (Row by Default)</h1>
-        <div class="bg-green-300 w-[600px] mx-auto p-4 flex gap-4">
-            <div class="bg-green-700 text-white px-2">1 (row)</div>
-            <div class="bg-green-700 text-white px-2">2</div>
-            <div class="bg-green-700 text-white px-2">3</div>
-        </div>
 
-        <h1 class="text-xl font-bold">Flex Column Layout</h1>
-        <div class="bg-green-300 w-[600px] mx-auto p-4 flex flex-col gap-4">
-            <div class="bg-green-700 text-white px-2">1 (top)</div>
-            <div class="bg-green-700 text-white px-2">2 (middle)</div>
-            <div class="bg-green-700 text-white px-2">3 (bottom)</div>
-        </div>
+            <div class="space-y-4">
+                <div
+                    class="p-10 m-10 bg-gradient-to-r from-red-500 to-green-500 hover:bg-gradient-to-l from-red-500 to-green-500">
+                    Right side color change
+                </div>
 
-        <h1 class="text-xl font-bold">Flex Row Layout</h1>
-        <div class="bg-green-300 w-[600px] mx-auto p-4 flex flex-row gap-4">
-            <div class="bg-green-700 text-white px-2">1 (left)</div>
-            <div class="bg-green-700 text-white px-2">2 (center)</div>
-            <div class="bg-green-700 text-white px-2">3 (right)</div>
-        </div>
+                <div
+                    class="p-10 m-10 bg-gradient-to-l from-red-500 to-green-500 hover:bg-gradient-to-r from-red-500 to-green-500">
+                    left side color change
+                </div>
 
-        <h1 class="text-xl font-bold">Justify Content Center</h1>
-        <div class="bg-green-300 w-[600px] mx-auto p-4 flex gap-4 justify-center">
-            <div class="bg-green-700 text-white px-2">center</div>
-            <div class="bg-green-700 text-white px-2">center</div>
-            <div class="bg-green-700 text-white px-2">center</div>
-        </div>
+                <div
+                    class="p-10 m-10 bg-gradient-to-t from-red-500 to-green-500 hover:bg-gradient-to-b from-red-500 to-green-500">
+                    Top side color change
+                </div>
 
-        <h1 class="text-xl font-bold">Justify Content Between</h1>
-        <div class="bg-green-300 w-[600px] mx-auto p-4 flex gap-4 justify-between">
-            <div class="bg-green-700 text-white px-2">start</div>
-            <div class="bg-green-700 text-white px-2">middle</div>
-            <div class="bg-green-700 text-white px-2">end</div>
-        </div>
+                <div
+                    class="p-10 m-10 bg-gradient-to-b from-red-500 to-green-500 hover:bg-gradient-to-t from-red-500 to-green-500">
+                    Bottom side color change
+                </div>
+            </div>
 
-        <h1 class="text-xl font-bold">Justify Content Around</h1>
-        <div class="bg-green-300 w-[600px] mx-auto p-4 flex gap-4 justify-around">
-            <div class="bg-green-700 text-white px-2">space</div>
-            <div class="bg-green-700 text-white px-2">around</div>
-            <div class="bg-green-700 text-white px-2">items</div>
-        </div>
+            <pre class="bg-black text-green-400 p-4 rounded-xl text-sm overflow-x-auto font-mono whitespace-pre">
+<code>
+&lt;div class="p-10 m-10 bg-gradient-to-r from-red-500 to-green-500 hover:bg-gradient-to-l from-red-500 to-green-500"&gt;Right side color change &lt;/div&gt;
 
-        <h1 class="text-xl font-bold">Justify Content Evenly</h1>
-        <div class="bg-green-300 w-[600px] mx-auto p-4 flex gap-4 justify-evenly">
-            <div class="bg-green-700 text-white px-2">equal</div>
-            <div class="bg-green-700 text-white px-2">equal</div>
-            <div class="bg-green-700 text-white px-2">equal</div>
-        </div>
+&lt;div class="p-10 m-10 bg-gradient-to-l from-red-500 to-green-500 hover:bg-gradient-to-r from-red-500 to-green-500"&gt;left side color change &lt;/div&gt;
 
-        <h1 class="text-xl font-bold">Align Items Center</h1>
-        <div class="bg-green-300 w-[600px] mx-auto p-4 flex gap-4 justify-evenly items-center h-[120px]">
-            <div class="bg-green-700 text-white py-4">center</div>
-            <div class="bg-green-700 text-white px-6">center</div>
-            <div class="bg-green-700 text-white px-2">center</div>
-        </div>
+&lt;div class="p-10 m-10 bg-gradient-to-t from-red-500 to-green-500 hover:bg-gradient-to-b from-red-500 to-green-500"&gt;Top side color change &lt;/div&gt;
 
-        <h1 class="text-xl font-bold">Align Items Start</h1>
-        <div class="bg-green-300 w-[600px] mx-auto p-4 flex gap-4 justify-evenly items-start h-[120px]">
-            <div class="bg-green-700 text-white py-4">top</div>
-            <div class="bg-green-700 text-white px-6">top</div>
-            <div class="bg-green-700 text-white px-2">top</div>
-        </div>
+&lt;div class="p-10 m-10 bg-gradient-to-b from-red-500 to-green-500 hover:bg-gradient-to-t from-red-500 to-green-500"&gt;Bottom side color change &lt;/div&gt;
+</code>
+        </pre>
 
-        <h1 class="text-xl font-bold">Align Items End</h1>
-        <div class="bg-green-300 w-[600px] mx-auto p-4 flex gap-4 justify-evenly items-end h-[120px]">
-            <div class="bg-green-700 text-white py-4">bottom</div>
-            <div class="bg-green-700 text-white px-6">bottom</div>
-            <div class="bg-green-700 text-white px-2">bottom</div>
-        </div>
-
-        <h1 class="text-xl font-bold">Self Alignment Override</h1>
-        <div class="bg-green-300 w-[600px] mx-auto p-4 flex gap-4 justify-evenly items-end h-[120px]">
-            <div class="bg-green-700 text-white py-4 self-start">top (self)</div>
-            <div class="bg-green-700 text-white px-6">bottom</div>
-            <div class="bg-green-700 text-white px-2">bottom</div>
-        </div>
-
-        <h1 class="text-xl font-bold">Self Center Alignment</h1>
-        <div class="bg-green-300 w-[600px] mx-auto p-4 flex gap-4 justify-evenly items-end h-[120px]">
-            <div class="bg-green-700 text-white py-4 self-center">center (self)</div>
-            <div class="bg-green-700 text-white px-6">bottom</div>
-            <div class="bg-green-700 text-white px-2">bottom</div>
         </div>
     </section>
 
+
     <section class="bg-white p-6 rounded-xl shadow space-y-6 text-center">
-        <h1 class="text-xl font-bold">CSS Grid Layout System</h1>
+        <h1 class="text-xl font-bold mb-4">Flexbox Layout</h1>
 
-        <h1 class="text-lg font-semibold">Grid with Three Columns Structure</h1>
+        <div class="grid md:grid-cols-2 gap-6 items-start">
 
-        <div class="bg-green-300 w-[600px] mx-auto p-4 grid grid-cols-3 gap-2">
-            <div class="bg-green-700 text-white p-2 col-span-3">
-                1 → col-span-3 (takes full row)
+            <div class="space-y-6">
+
+                <h1 class="text-xl font-bold">Flexbox Layout (Row by Default)</h1>
+                <div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4">
+                    <div class="bg-green-700 text-white px-2">1 (row)</div>
+                    <div class="bg-green-700 text-white px-2">2</div>
+                    <div class="bg-green-700 text-white px-2">3</div>
+                </div>
+
+                <h1 class="text-xl font-bold">Flex Column Layout</h1>
+                <div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex flex-col gap-4">
+                    <div class="bg-green-700 text-white px-2">1 (top)</div>
+                    <div class="bg-green-700 text-white px-2">2 (middle)</div>
+                    <div class="bg-green-700 text-white px-2">3 (bottom)</div>
+                </div>
+
+                <h1 class="text-xl font-bold">Flex Row Layout</h1>
+                <div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex flex-row gap-4">
+                    <div class="bg-green-700 text-white px-2">1 (left)</div>
+                    <div class="bg-green-700 text-white px-2">2 (center)</div>
+                    <div class="bg-green-700 text-white px-2">3 (right)</div>
+                </div>
+
+
+
             </div>
 
-            <div class="bg-green-700 text-white p-2 row-span-2 flex items-center justify-center">
-                2 → row-span-2 (takes 2 rows height)
+            <pre class="bg-black text-green-400 p-4 rounded-xl text-sm overflow-x-auto font-mono whitespace-pre">
+<code>
+&lt;div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4"&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;1 (row)&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;2&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;3&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex flex-col gap-4"&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;1 (top)&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;2 (middle)&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;3 (bottom)&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex flex-row gap-4"&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;1 (left)&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;2 (center)&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;3 (right)&lt;/div&gt;
+&lt;/div&gt;
+</code>
+        </pre>
+
+        </div>
+    </section>
+
+
+    <section class="bg-white p-6 rounded-xl shadow space-y-6 text-center">
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+            <div class="space-y-6">
+                <h1 class="text-xl font-bold">Justify Content Center</h1>
+                <div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-center">
+                    <div class="bg-green-700 text-white px-2">center</div>
+                    <div class="bg-green-700 text-white px-2">center</div>
+                    <div class="bg-green-700 text-white px-2">center</div>
+                </div>
+
+                <h1 class="text-xl font-bold">Justify Content Between</h1>
+                <div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-between">
+                    <div class="bg-green-700 text-white px-2">start</div>
+                    <div class="bg-green-700 text-white px-2">middle</div>
+                    <div class="bg-green-700 text-white px-2">end</div>
+                </div>
+
+                <h1 class="text-xl font-bold">Justify Content Around</h1>
+                <div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-around">
+                    <div class="bg-green-700 text-white px-2">space</div>
+                    <div class="bg-green-700 text-white px-2">around</div>
+                    <div class="bg-green-700 text-white px-2">items</div>
+                </div>
+
+                <h1 class="text-xl font-bold">Justify Content Evenly</h1>
+                <div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-evenly">
+                    <div class="bg-green-700 text-white px-2">equal</div>
+                    <div class="bg-green-700 text-white px-2">equal</div>
+                    <div class="bg-green-700 text-white px-2">equal</div>
+                </div>
+
+            </div>
+            <div>
+                <pre class="bg-black text-green-400 p-4 rounded-xl text-sm overflow-x-auto font-mono whitespace-pre">
+<code>
+&lt;div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-center"&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;center&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;center&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;center&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-between"&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;start&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;middle&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;end&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-around"&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;space&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;around&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;items&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-evenly"&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;equal&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;equal&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;equal&lt;/div&gt;
+&lt;/div&gt;
+    </code>
+    </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white p-6 rounded-xl shadow space-y-6 text-center">
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+            <div class="space-y-6">
+                <h1 class="text-xl font-bold">Align Items Center</h1>
+                <div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-evenly items-center h-[120px]">
+                    <div class="bg-green-700 text-white py-4">center</div>
+                    <div class="bg-green-700 text-white px-6">center</div>
+                    <div class="bg-green-700 text-white px-2">center</div>
+                </div>
+
+                <h1 class="text-xl font-bold">Align Items Start</h1>
+                <div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-evenly items-start h-[120px]">
+                    <div class="bg-green-700 text-white py-4">top</div>
+                    <div class="bg-green-700 text-white px-6">top</div>
+                    <div class="bg-green-700 text-white px-2">top</div>
+                </div>
+
+                <h1 class="text-xl font-bold">Align Items End</h1>
+                <div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-evenly items-end h-[120px]">
+                    <div class="bg-green-700 text-white py-4">bottom</div>
+                    <div class="bg-green-700 text-white px-6">bottom</div>
+                    <div class="bg-green-700 text-white px-2">bottom</div>
+                </div>
+
+            </div>
+            <div>
+                <pre class="bg-black text-green-400 p-4 rounded-xl text-sm overflow-x-auto font-mono whitespace-pre">
+<code>
+&lt;div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-evenly items-center h-[120px]"&gt;
+    &lt;div class="bg-green-700 text-white py-4"&gt;center&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-6"&gt;center&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;center&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-evenly items-start h-[120px]"&gt;
+    &lt;div class="bg-green-700 text-white py-4"&gt;top&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-6"&gt;top&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;top&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-evenly items-end h-[120px]"&gt;
+    &lt;div class="bg-green-700 text-white py-4"&gt;bottom&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-6"&gt;bottom&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;bottom&lt;/div&gt;
+&lt;/div&gt;
+    </code>
+    </pre>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="bg-white p-6 rounded-xl shadow space-y-6 text-center">
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+            <div class="space-y-6">
+                <h1 class="text-xl font-bold">Self Alignment Override</h1>
+                <div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-evenly items-end h-[120px]">
+                    <div class="bg-green-700 text-white py-4 self-start">top (self)</div>
+                    <div class="bg-green-700 text-white px-6">bottom</div>
+                    <div class="bg-green-700 text-white px-2">bottom</div>
+                </div>
+
+                <h1 class="text-xl font-bold">Self Center Alignment</h1>
+                <div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-evenly items-end h-[120px]">
+                    <div class="bg-green-700 text-white py-4 self-center">center (self)</div>
+                    <div class="bg-green-700 text-white px-6">bottom</div>
+                    <div class="bg-green-700 text-white px-2">bottom</div>
+                </div>
+            </div>
+            <div>
+                <pre class="bg-black text-green-400 p-4 rounded-xl text-sm overflow-x-auto font-mono whitespace-pre">
+<code>
+&lt;div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-evenly items-end h-[120px]"&gt;
+    &lt;div class="bg-green-700 text-white py-4 self-start"&gt;top (self)&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-6"&gt;bottom&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;bottom&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="bg-green-300 max-w-xl w-full mx-auto p-4 flex gap-4 justify-evenly items-end h-[120px]"&gt;
+    &lt;div class="bg-green-700 text-white py-4 self-center"&gt;center (self)&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-6"&gt;bottom&lt;/div&gt;
+    &lt;div class="bg-green-700 text-white px-2"&gt;bottom&lt;/div&gt;
+&lt;/div&gt;
+    </code>
+    </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white p-6 rounded-xl shadow space-y-6 text-center">
+        <h1 class="text-xl font-bold mb-2">CSS Grid Layout System</h1>
+
+        <h1 class="text-lg font-semibold mb-4">Grid with Three Columns Structure</h1>
+
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+
+            <!-- LEFT: Preview -->
+            <div>
+                <div class="bg-green-300 max-w-xl w-full mx-auto p-4 grid grid-cols-3 gap-2">
+
+                    <div class="bg-green-700 text-white p-2 col-span-3">
+                        1 → col-span-3 (takes full row)
+                    </div>
+
+                    <div class="bg-green-700 text-white p-2 row-span-2 flex items-center justify-center">
+                        2 → row-span-2 (takes 2 rows height)
+                    </div>
+
+                    <div class="bg-green-700 text-white p-2 col-span-2">
+                        3 → col-span-2 (takes 2 columns)
+                    </div>
+
+                    <div class="bg-green-700 text-white p-2">
+                        4 → normal (1 col, 1 row)
+                    </div>
+
+                    <div class="bg-green-700 text-white p-2">
+                        5 → normal
+                    </div>
+
+                    <div class="bg-green-700 text-white p-2 col-span-3">
+                        6 → full row again
+                    </div>
+
+                </div>
             </div>
 
-            <div class="bg-green-700 text-white p-2 col-span-2">
-                3 → col-span-2 (takes 2 columns)
-            </div>
+            <!-- RIGHT: Code (EXACT SAME, only escaped) -->
+            <pre class="bg-black text-green-400 p-4 rounded-xl text-sm overflow-x-auto font-mono whitespace-pre">
+<code>
+&lt;div class="bg-green-300 max-w-xl w-full mx-auto p-4 grid grid-cols-3 gap-2"&gt;
+&lt;div class="bg-green-700 text-white p-2 col-span-3"&gt;1 → col-span-3 (takes full row)&lt;/div&gt;
+&lt;div class="bg-green-700 text-white p-2 row-span-2 flex items-center justify-center"&gt;2 → row-span-2 (takes 2 rows height)&lt;/div&gt;
+&lt;div class="bg-green-700 text-white p-2 col-span-2"&gt;3 → col-span-2 (takes 2 columns)&lt;/div&gt;
+&lt;div class="bg-green-700 text-white p-2"&gt;4 → normal (1 col, 1 row)&lt;/div&gt;
+&lt;div class="bg-green-700 text-white p-2"&gt;5 → normal&lt;/div&gt;
+&lt;div class="bg-green-700 text-white p-2 col-span-3"&gt;6 → full row again&lt;/div&gt;&lt;/div&gt;
+</code>
+        </pre>
 
-            <div class="bg-green-700 text-white p-2">
-                4 → normal (1 col, 1 row)
-            </div>
-
-            <div class="bg-green-700 text-white p-2">
-                5 → normal
-            </div>
-
-            <div class="bg-green-700 text-white p-2 col-span-3">
-                6 → full row again
-            </div>
         </div>
     </section>
 
 </body>
+
 </html>
